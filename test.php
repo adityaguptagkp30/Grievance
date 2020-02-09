@@ -77,7 +77,7 @@ $mail->Username = 'adityaguptagkp30@gmail.com';                 // SMTP username
 $mail->Password = '*****';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
-$mail->setFrom('adityaguptagkp30@gmail.com', 'TRAVEl GUIDE');
+$mail->setFrom('adityaguptagkp30@gmail.com', 'AKGEC GRIEVANCE');
 $mail->addAddress($email);     // Add a recipient              // Name is optional
 //$mail->addReplyTo(EMAIL);
 
