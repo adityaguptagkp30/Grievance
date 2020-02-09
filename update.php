@@ -8,7 +8,8 @@ $conn=mysqli_connect("localhost","root","","form");
 <body>
 
 <form action="" method="GET">
-status<input type ="text" name="status" value="<?php echo $_GET['status']; ?>"/> <br><br>
+<!-- <?php echo $_GET['status']; ?> -->
+status <input type ="radio" name="status" value="1"/> Resolved</input> <input type ="radio" name="status" value="0"/> Unresolved</input> <br><br>
 id<input type ="text" name="id" value="<?php  echo $_GET['id']; ?>"/> <br><br>
 
 <input type="submit" name="submit" value="UPDATE"/>
